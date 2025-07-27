@@ -1,0 +1,52 @@
+.one{
+    height:100px;
+    width:100px;
+    background-color:red;
+    margin:5px;
+    border:2px solid black;
+    position:static;
+}
+.two{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    margin:5px;
+    border:2px solid black;
+    position:relative;
+    top:50px;   
+    left:50px;
+    z-index:1;
+}
+.three{
+    height:100px;
+    width:100px;
+    background-color:green;
+    margin:5px;
+    border:2px solid black;
+    position:relative;
+    z-index:2;
+}
+.four {
+    height:100px;
+    width:100px;
+    background-color:blue;
+    margin:5px;
+    border:2px solid black;
+    position:relative;
+    top:10px;
+}
+.four h1{
+    text-align:center;
+    padding:20px;
+    color:black;
+    position:absolute;
+    top:30x;
+}
+.five h1{
+    position:fixed;
+    left:50px;
+}
+.six h1{
+    position:sticky;
+    top:10px;
+}
