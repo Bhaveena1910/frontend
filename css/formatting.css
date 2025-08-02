@@ -1,0 +1,52 @@
+*{
+    background-color:azure;
+    margin:5px;
+}
+h1{
+    text-align:center;
+    color:blue
+}
+.one p{
+    text-align: justify;
+    background-color:ghostwhite;
+    padding:2px;
+    font-family: Garamond;
+    font-style:italic;
+}
+.two p{
+    text-decoration: line-through grey;
+    text-decoration-style:solid ;
+    text-decoration-thickness:2px;
+    background-color: antiquewhite;
+    padding:5px;
+    font-family:Lucida Console;
+}
+.three a{
+    text-decoration: none;
+    font-family: Lucida Handwriting;
+    font-weight:700;
+    
+}
+.four p{
+    background-color: cornsilk;
+    text-transform: capitalize;
+    padding:5px;
+    font-family: Helvetica;
+    font-style:oblique;
+    font-size:smaller;
+}
+.five p{
+    text-shadow:5px 5px 5px red;
+    background-color:white;
+    padding:5px;
+    font-family:'Papyrus';
+    font-variant:inherit;
+}
+.six p{
+    background-color: black;
+    color:white;
+    padding:5px;
+    word-spacing:5px;
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
