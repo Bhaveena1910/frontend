@@ -1,0 +1,21 @@
+@media screen and (max-width:600px)
+{
+    .small{
+        background-color:yellow;
+        height:200px; 
+    }
+}
+@media screen and (max-width:800px)
+{
+    .medium{
+        background-color:blue;
+        height:300px;
+    }
+}
+@media screen and (min-width:800px)
+{
+    .large{
+        background-color:green;
+        height:400px;
+    }
+}
